@@ -2,7 +2,7 @@
 #include <inttypes.h>
 
 uint32_t table[40];
-uint16_t pointer = 0;
+size_t pointer = 0;
 
 void computeFib(uint16_t n) {
     for (; pointer <= n; pointer++) {
