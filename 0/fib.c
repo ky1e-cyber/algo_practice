@@ -1,3 +1,16 @@
+/*
+
+Дано целое число 1 ≤ n ≤ 40, необходимо вычислить n-е число Фибоначчи 
+(напомним, что F_0 = 0; F_1 = 1; F_n = F_{n-1} + F_{n-2} при n≥2).
+
+Sample Input:
+3
+
+Sample Output:
+2
+
+*/
+
 #include <stdio.h>
 #include <inttypes.h>
 
